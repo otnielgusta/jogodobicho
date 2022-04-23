@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #141312;
+    color: white;
+}
+
+body, button, input{
+    font-family: 'Poppins', sans-serif;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.container{
+
+    padding: 30px 30px;
+}
+
+.corpo{
+    flex-wrap: wrap;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.bicho{
+    width: 200px;
+    background-color: white;
+    border-radius: 5px;
+    color: #626262;
+}
+
+.bicho div{
+    margin: 0 10px;
+
+}
+
+.bicho .nomeBicho p{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.numeros{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-weight: 600;
+}
+
+.bicho button{
+    cursor: pointer;
+    width: 100%;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+form{
+    max-width: 600px;
+}
+form .valor{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    height: 30px;
+}
+
+.imageAnimal img{
+    width: 100px;
+    height: 100px;
+}
+form button{
+    cursor: pointer;
+    height: 40px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
